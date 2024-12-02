@@ -1,0 +1,5 @@
+services:
+    alpine-w-ssh:
+        image: vitalbrick/alpine-w-ssh:latest
+        build:
+            context: .
